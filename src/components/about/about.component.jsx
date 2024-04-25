@@ -23,7 +23,7 @@ export function About() {
                 <div className=" aboutdiv ">
                     <div>
                         <h1>About</h1>
-                        <p>About</p>
+                        <p>About us</p>
                     </div>
                 </div>
             </section>
