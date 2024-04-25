@@ -32,7 +32,7 @@ export function About() {
                     <div className="col-xl-6 col-lg-6 col-md-6">
                         <h1 style={{ fontWeight: '800' }}>This is how we do. Learn something about us and our services</h1>
                         <br /><br />
-                        <p>There is a voice that keeps on calling me. Down the road, that is where I will always be. Every stop I make, I make a new friend. Cant stay for long, just turn around and I am  gone again. Maybe tomorrow, I will want to settle down, Until tomorrow, I will just keep moving on.</p>
+                        <p>hahaha There is a voice that keeps on calling me. Down the road, that is where I will always be. Every stop I make, I make a new friend. Cant stay for long, just turn around and I am  gone again. Maybe tomorrow, I will want to settle down, Until tomorrow, I will just keep moving on.</p>
                         <p>Top Cat! The most effectual Top Cat! Who is intellectual close friends get to call him T.C., providing it is with dignit</p>
                         <br />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti fuga distinctio impedit, voluptas at repudiandae. Laborum sapiente esse dolorum! Delectus enim similique obcaecati et assumenda dolore magnam, cum ducimus! <br /> <br />
