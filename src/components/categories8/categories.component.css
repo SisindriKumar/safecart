@@ -1,0 +1,31 @@
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrows span{
+    font-size: 25px;
+}
+.categorie{
+    background-color: white;
+    box-shadow: 0 -2px 2px rgb(191, 187, 187);
+}
+.pets{
+    background-color: rgb(246, 247, 249);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.pets img{
+    width: 80%;
+}
+.dis{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:300px) {
+    .arrows{
+        display: none;
+    }
+}

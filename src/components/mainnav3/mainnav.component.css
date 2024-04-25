@@ -1,0 +1,255 @@
+/* .container{
+    color: black;
+}
+.con li a span{
+    color: black;
+    font-size: 20px;
+}
+.nav-item a{
+    color: black;
+}
+.submenu{
+    list-style-type: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 0rem;
+    top: 3rem;
+    display: none;
+
+}
+.submenu1{
+    list-style-type: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 10rem;
+    top:3rem;
+    display: none;
+
+}
+.submenu2{
+    list-style-type: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left:16rem;
+    top: 3rem;
+    display: none;
+
+}
+.submenu3{
+    list-style-type: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 20rem;
+    top: 3rem;
+    display: none;
+
+}
+.menu-list:hover .submenu{
+    display: block;
+}
+.menu-list:hover .submenu1{
+    display: block;
+}
+.menu-list:hover .submenu2{
+    display: block;
+}
+.menu-list:hover .submenu3{
+    display: block;
+} */
+.file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 50px;
+    width: 91%;
+    margin-left: 4rem;
+}
+
+.menu {
+    list-style-type: none;
+    color: black;
+    padding: 15px;
+    position: relative;
+    height: 70px;
+    margin-top: 15px;
+}
+
+.menu li {
+    color: black;
+}
+
+.menu-list {
+    display: inline;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.no {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 145px;
+    top: 37px;
+    display: none;
+
+}
+
+.menu-list:hover .submenu {
+    display: block;
+}
+
+.submenu1 {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 300px;
+    top: 37px;
+    display: none;
+}
+
+.submenu2 {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 500px;
+    top: 37px;
+    display: none;
+}
+
+.submenu3 {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    left: 600px;
+    top: 37px;
+    display: none;
+}
+
+.submenu4 {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    line-height: 40px;
+    inline-size: 150px;
+    right: 10px;
+    top: 200px;
+    display: none;
+}
+
+.menu-list:hover .submenu1 {
+    display: block;
+}
+
+.menu-list:hover .submenu2 {
+    display: block;
+}
+
+.menu-list:hover .submenu3 {
+    display: block;
+}
+
+.menu-list:hover .submenu4 {
+    display: block;
+}
+
+.nan1 ul {
+    list-style-type: none;
+}
+
+.menu-list li:hover {
+    background-color: green;
+    color: white;
+}
+
+.menu-list li .no:hover {
+    color: white;
+}
+
+.icons {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.chairimg img {
+    width: 100%;
+}
+
+.chairimg {
+    border: 1px solid rgb(200, 185, 185);
+}
+
+.a {
+    position: relative;
+}
+
+.catbox {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    line-height: 60px;
+    inline-size: 600px;
+    left: 23rem;
+    top: 4rem;
+    display: none;
+}
+
+.nav-item:hover .catbox {
+    display: block;
+}
+
+@media screen and (max-width:900px) {
+    .nan1 {
+        display: none;
+    }
+
+    .menu li {
+        font-size: 15px;
+    }
+
+    .nan {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .file {
+        height: 5rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .file {
+        width: 100%;
+        margin-left: 0;
+    }
+}
